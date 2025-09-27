@@ -323,13 +323,6 @@ $extensions = json_decode(file_get_contents('extensions.json'), true);
                 <div class="col-md-8">
                     <input type="text" class="form-control search-input" placeholder="Pesquisar extensões..." id="searchInput">
                 </div>
-                <div class="col-md-4 text-sm-right mt-3 mt-md-0">
-                    <select class="form-control search-input" id="categoryFilter">
-                        <option value="">Todas as categorias</option>
-                        <option value="payment-gateway">Gateway de Pagamento</option>
-                        <option value="example">Exemplo</option>
-                    </select>
-                </div>
             </div>
             <div class="filter-buttons">
                 <button class="btn filter-btn active" data-filter="all">Todas</button>
