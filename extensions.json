@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "id": "exemplo",
+            "name": "Exemplo",
+            "description": "Exemplo",
+            "version": "1.0.0",
+            "mapos_minimum_version": "4.52.0",
+            "author": "Exemplo",
+            "website": "https://example.com",
+            "icon": "assets/imgs/icon.svg",
+            "download": "https://example.com/download.zip",
+            "category": "example",
+            "tags": [
+                "example"
+            ],
+            "type": [
+                "free"
+            ]
+        },
+        {
+            "id": "banco-cora",
+            "name": "Banco Cora",
+            "description": "Gateway de cobrancas do Banco Cora",
+            "version": "1.0.0",
+            "mapos_minimum_version": "4.52.0",
+            "author": "SysGO",
+            "website": "https://sysgo.com.br",
+            "icon": "https://raw.githubusercontent.com/Tgentil/Bancos-em-SVG/73d82e89efe74b80154053f560f50e16d981c351/Cora%20Sociedade%20Credito%20Direto%20S.A/icone-cora-com-fundo-pequeno.svg",
+            "download": "https://wa.me/5511913688290?text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20a%20extens%C3%A3o%20do%20Banco%20Cora%20para%20o%20MapOS.",
+            "category": "payment-gateway",
+            "tags": [
+                "banco-cora"
+            ],
+            "type": [
+                "paid"
+            ]
+        }
+    ]
+}
