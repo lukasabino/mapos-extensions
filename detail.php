@@ -241,7 +241,7 @@ $extension = $extension['data'][$id];
                 </a>
                 <div>
                     <div class="d-flex align-items-center">
-                        <i class="fas fa-lightbulb text-warning mr-2"></i>
+                        <img src="<?php echo $extension['icon'] ?>" style="max-width: 35px;"/>
                         <h1 class="extension-title"><?php echo $extension['name']; ?> • v<?php echo $extension['version']; ?></h1>
                     </div>
                     <p class="extension-subtitle"><?php echo $extension['description']; ?></p>
@@ -290,10 +290,6 @@ $extension = $extension['data'][$id];
                         <div class="detail-item">
                             <i class="fas fa-check-circle"></i>
                             <span><strong>Compatível com:</strong> Map-Os v<?php echo $extension['mapos_minimum_version']; ?> e posterior</span>
-                        </div>
-                        <div class="detail-item">
-                            <i class="fab fa-github"></i>
-                            <span><strong>Código fonte:</strong> <a href="https://github.com/lukasabino/mapos-extensions" target="_blank">lukasabino/mapos-extensions</a></span>
                         </div>
                         <a href="<?php echo $extension['download']; ?>" class="download-btn" target="_blank">
                             <i class="fas fa-download"></i>

@@ -37,6 +37,25 @@
                 "paid"
             ],
             "readme": "### Banco Cora\n\nEsta extensão integra o gateway de cobranças do Banco Cora ao Map-Os.\n\n#### Instalação\n\n1. Baixe o arquivo ZIP da extensão.\n2. Extraia o conteúdo na pasta `application/third_party/extensions/` do seu Map-Os.\n3. Acesse o painel de administração do Map-Os e ative a extensão.\n4. Configure as credenciais do Banco Cora nas configurações da extensão.\n\n#### Uso\n\nApós ativar e configurar a extensão, você poderá gerar boletos bancários diretamente pelo Map-Os utilizando o gateway do Banco Cora.\n\n#### Suporte\n\nPara suporte, entre em contato via [WhatsApp](https://wa.me/5511913688290?text=Ol%C3%A1%2C%20gostaria%20de%20suporte%20para%20a%20extens%C3%A3o%20do%20Banco%20Cora%20no%20MapOS)."
+        },
+        {
+            "id": "fw-equipamentos",
+            "name": "Cadastro de Equipamentos FWInformatica",
+            "description": "Addon que permite o cadastro de equipamentos no Map-Os",
+            "version": "1.0.0",
+            "mapos_minimum_version": "4.52.0",
+            "author": "FW Informatica",
+            "website": "https://firewarrior.com.br",
+            "icon": "assets/imgs/equipment.svg",
+            "download": "https://wa.me/5511993698430?text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20a%20extens%C3%A3o%20do%20Banco%20Cora%20para%20o%20MapOS.",
+            "category": "modules",
+            "tags": [
+                "equipamentos"
+            ],
+            "type": [
+                "paid"
+            ],
+            "readme": ""
         }
     ]
 }
