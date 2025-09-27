@@ -264,25 +264,17 @@ $extension = $extension['data'][$id];
                         <div class="tab-pane fade show active" id="overview">
                             <?php echo $extension['description']; ?>
                         </div>
+                    </div>
 
-                        <div class="tab-pane fade" id="releases">
-                            <div class="content-section">
-                                <h2>Histórico de Versões</h2>
-                                <div class="release-item">
-                                    <span class="release-version">v<?php echo $extension['version']; ?></span>
-                                    <span class="release-date">há mais de 1 ano</span>
-                                </div>
-                                <div class="release-item">
-                                    <span class="release-version">v1.0.0-beta</span>
-                                    <span class="release-date">há mais de 2 anos</span>
-                                </div>
-                                <div class="release-item">
-                                    <span class="release-version">v0.9.0</span>
-                                    <span class="release-date">há mais de 2 anos</span>
-                                </div>
-                                <a href="#" class="view-more">Ver mais →</a>
-                            </div>
-                        </div>
+                    <div class="content-section mt-4">
+                        <h2>Leia-me</h2>
+                        <?php
+                        if (isset($extension['readme'])) {
+                            echo nl2br($extension['readme']);
+                        } else {
+                            echo "<p>Nenhum arquivo README disponível para esta extensão.</p>";
+                        }
+                        ?>
                     </div>
                 </div>
             </div>
