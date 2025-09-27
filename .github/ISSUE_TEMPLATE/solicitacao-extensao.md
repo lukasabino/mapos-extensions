@@ -1,7 +1,6 @@
 ---
 name: Solicitação de Nova Extensão
 about: Indique uma extensão a ser mapeada
-.
 title: ""
 labels: ""
 assignees: ""
